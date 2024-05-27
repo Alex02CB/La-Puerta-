@@ -1,0 +1,272 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('./fonts/Avenir.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body{
+  font-family: "Avenir", sans-serif;
+  ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  a{
+    color: black;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(60, 60, 60);
+  }
+  img{
+    width: 100%;
+  }
+  h1{
+    font-size: 24px;
+    font-weight: 900;
+  }
+  p{
+    font-size: 20px;
+  }
+
+  max-width: 100%;
+
+  @media (max-width:1024px){
+    a{
+      font-size: 13px;
+    }
+    h2{
+      font-size: 16px;
+    }
+    h1{
+      font-size: 16px;
+    }
+  }
+}
+
+
+/* HOME */
+
+.bannerHome{
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/LaPuertaHome.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.imageSer{
+  background-repeat: no-repeat;
+  background-size: 100%;
+  object-fit: contain;
+}
+
+
+.buttonSerHome{
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+.waverSer{
+  width: 40px;
+}
+
+.boxSerText{
+  padding-left: 40px;
+}
+
+.boxSerText h1{
+  margin-bottom: 30px;
+}
+.boxSerText p{
+  font-size: 20px;
+}
+
+.linkEstudio{
+  margin-top: 100px;
+}
+
+.ser{
+  margin-top: 100px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.ser1{
+  margin-top: 100px;
+  height: 50vh;
+}
+.buttonSerHome{
+  font-size: 24px;
+  font-weight: 900;
+}
+.buttonSerHome p{
+  font-size: 24px;
+}
+.boxHomeContact{
+  margin-top: 180px;
+  margin-bottom: 180px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.boxHomeContact h2{
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.textoHomeContact span{
+  font-weight: 800;
+  font-style: normal;
+}
+
+.textoHomeContact{
+  font-style: italic;
+}
+
+.backgroundPoema{
+  background-image: url('fondoPoemaHome.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 120px;
+  margin-bottom: 100px;
+  background-color: #F9F9F9;
+  height: 30vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.contactDiv{
+
+  margin-left: 0px;
+}
+
+.poemamobile{
+  background-color: #FBFBFB;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 13%;
+  text-align: center;
+}
+
+.boton{
+  width: 120px;
+  height: 30px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px #222222 solid;
+  background-color: #222222;
+  font-weight: 800;
+  color: white;
+}
+
+.botonSaberMas{
+  display: none;
+}
+
+@media (min-width:1025px){
+  .poemamobile{
+    display: none;
+  }
+}
+
+
+/* TABLET Y MOBILE  HOME*/
+@media only screen and (max-width:991px){
+
+  .bannerHome{
+    background-position: 50% 50%;
+  }
+
+  .imageSer{
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .ser{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .ser1{
+    margin-top: 0px;
+  }
+
+.backgroundPoema{
+  display: none;
+}
+
+.textSer{
+  display: none;
+}
+
+.linkEstudio{
+  display: none;
+}
+
+
+  .bannerHome{
+    background-position: 50% 50%;
+  }
+
+  .ser1{
+    flex-direction: column-reverse;
+  }
+  .boxSerText{
+    padding-left: 0px;
+  }
+  .linkEstudio{
+    margin-top: 20px;
+  }
+  .waverSer{
+    width: 30px;
+  }
+  .imageSer{
+    width: 100%;
+    height: 30vh;
+  }
+  .backgroundPoema{
+    display: none;
+  }
+
+  /* BOTON SABER MÁS */
+
+  .botonSaberMas{
+    display: block;
+    width: 120px;
+    background-color: #22222280;
+    color: white;
+    padding: 20px;
+    font-weight: 800;
+    text-align: center;
+  }
+
+  .botonSaberMas:hover{
+    color: white;
+    background-color: #00000080;
+  }
+}
+
+/* FIN HOME */
