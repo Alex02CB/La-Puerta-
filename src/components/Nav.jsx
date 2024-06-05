@@ -1,10 +1,7 @@
-import  { useState } from "react"
+import { useState } from "react"
 import { motion } from "framer-motion"
 import { Link } from "react-router-dom"
-
 import "../styles.scss"
-
-
 
 const MOBILE_NAV_ITEMS = [
   {
@@ -21,7 +18,7 @@ const MOBILE_NAV_ITEMS = [
   },
   {
     id: 3,
-    navTitle:  <Link to="/masterclass">Formaciones</Link>
+    navTitle: <Link to="/masterclass">Formaciones</Link>
   },
   {
     id: 4,
@@ -35,7 +32,7 @@ const MOBILE_NAV_ITEMS = [
 
 
 const Nav = () => {
-    
+
   const [mobileNavOpen, setMobileNavOpen] = useState(false)
 
   const hideNavItemsVariant = {
@@ -123,64 +120,64 @@ const Nav = () => {
 
   return (
     <main className="container-nav container-fluid">
-        <div className="row">
-      <motion.nav
-        initial="closed"
-        animate={mobileNavOpen ? "opened" : "closed"}
-      >
-        <div className="col-lg-4 col-md-4 col-2"></div>
+      <div className="row">
+        <motion.nav
+          initial="closed"
+          animate={mobileNavOpen ? "opened" : "closed"}
+        >
+          <div className="col-lg-4 col-md-4 col-2"></div>
 
-        <div className="logo-container  col-lg-4 col-md-4 col-8">
+          <div className="logo-container  col-lg-4 col-md-4 col-8">
 
             <Link to="/" className="d-flex justify-content-center">
-                <motion.img className="logoHeader" variants={hideNavItemsVariant} src="/logolapuertawhite.png" alt="" />
+              <motion.img className="logoHeader" variants={hideNavItemsVariant} src="/logolapuertawhite.png" alt="" />
             </Link>
 
-        </div>
-        <div className="menu-container col-lg-4 col-md-4 col-2 d-flex justify-content-end align-items-center">
-          <motion.div
-            variants={hideNavItemsVariant}
-            onClick={() => setMobileNavOpen(true)}
-          >
-            <img src="/HamburgerWhite.svg" className="menuNav" />
+          </div>
+          <div className="menu-container col-lg-4 col-md-4 col-2 d-flex justify-content-end align-items-center">
+            <motion.div
+              variants={hideNavItemsVariant}
+              onClick={() => setMobileNavOpen(true)}
+            >
+              <img src="/HamburgerWhite.svg" className="menuNav" />
 
-          </motion.div>
-        </div>
+            </motion.div>
+          </div>
 
-        <motion.div variants={mobileMenuVariant} className="mobile-menu">
+          <motion.div variants={mobileMenuVariant} className="mobile-menu">
             <motion.div className="d-flex col-lg-12 col-md-12 col-12 pt-5">
 
               <motion.div className="col-lg-4 col-md-4 col-4 "></motion.div>
 
-                <motion.div className="lapuertaLogoToggle col-lg-4 col-md-4 col-4"> 
-                    <img src="/LogoFooter.png" alt="La Puerta Estudios" />
-                </motion.div>
+              <motion.div className="lapuertaLogoToggle col-lg-4 col-md-4 col-4">
+                <img src="/LogoFooter.png" alt="La Puerta Estudios" />
+              </motion.div>
 
-                <motion.button
+              <motion.button
                 className="xIconoToggle col-lg-4 col-md-4 col-4 d-flex justify-content-end align-intems-center "
                 variants={fadeInVariant}
                 onClick={() => setMobileNavOpen(false)}>
-                    <i class="bi bi-x-lg closeNav"></i>
-                </motion.button>
+                <i class="bi bi-x-lg closeNav"></i>
+              </motion.button>
 
             </motion.div>
 
             <motion.div className="d-flex flex-lg-row flex-md-row flex-column justify-content-center mt-5 col-lg-12 col-md-12 col-12">
 
               <motion.ul variants={ulVariant} className="ulFirst col-lg-6 col-md-6 col-12 ">
-                  {MOBILE_NAV_ITEMS.map(navItem => (
+                {MOBILE_NAV_ITEMS.map(navItem => (
                   <motion.li whileTap={{ scale: 0.95 }} key={navItem.id}>
-                      <motion.div variants={liVariant}>{navItem.navTitle}</motion.div>
+                    <motion.div variants={liVariant}>{navItem.navTitle}</motion.div>
                   </motion.li>
-                  ))}
+                ))}
               </motion.ul>
 
             </motion.div>
 
-        </motion.div>
+          </motion.div>
 
-      </motion.nav>
-        </div>
+        </motion.nav>
+      </div>
     </main>
   )
 }

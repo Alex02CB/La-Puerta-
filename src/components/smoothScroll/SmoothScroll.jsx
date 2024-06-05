@@ -35,7 +35,7 @@ const SmoothScroll = () => {
         </div>
       </div>
 
-      <HorizontalScrollCarousel />
+      <HorizontalScrollCarousel/>
       
     </div>
   );
@@ -47,7 +47,7 @@ const HorizontalScrollCarousel = () => {
     target: targetRef,
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ["1%", "-95%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["1%", "-40%"]);
 
   return (
     <section ref={targetRef} className="relative h-[300vh]">
@@ -123,35 +123,7 @@ const cards = [
 
 ];
 
-// SEGUNDA CARD
 
-const cards2 = [
-  {
-    url: "/imgEstudio/salaElvira.jpg",
-    title: "Composición y producción",
-    description:"Cuenta con profesionales para asesorarte en tus proyectos. Utiliza nuestras instalaciones y material en el proceso.",
-    id: 1,
-  },
-  {
-    url: "/imgEstudio/salaMonaita.jpg",
-    title: "Grabación",
-    description:"Un ambiente cómodo y luminoso con una acústica increíble y un equipo de alta calidad.",
-    id: 2,
-  },
-  {
-    url: "/imgEstudio/mesa.png",
-    title: "Mezcla & Mix",
-    description:"Obtén el sonido que quieres mezclando lo mejor de lo analógico y lo digital.",
-    id: 3,
-  },
-  {
-    url: "/LaPuertaHome.png",
-    title: "Post-Produccion",
-    description:"Un sonido innovador para tus producciones audiovisuales. ",
-    id: 4,
-  }, 
-
-];
 
 
 
