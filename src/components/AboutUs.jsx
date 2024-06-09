@@ -46,6 +46,49 @@ function AboutUs() {
                 </div>
             </div>
 
+            <div className='container-fluid'>
+                <div className='row sectionOne'>
+
+                    <div className='d-flex justify-content-between mb-5  col-lg-12 col-md-12 col-12'>
+                        <h2>Familia LA PUERTA</h2>
+                        <img className=' w-2 lg:w-5 ' src="/imgEstudio/nota.svg" alt="La Puerta Estudios" />
+                    </div>
+
+                    <div className='flex flex-wrap gap-24'>
+
+                        <div className='w-1/5'>
+                            <img src="/imgAboutus/roca.png" alt="La Puerta" />
+                            <h3 className='font-bold mb-3 mt-3'>Carlos Roca</h3>
+                            <p className='mb-3'>Técnico de estudio, productor y mánager.</p>
+                            <a className='text-zinc-500	' href="@ayquealegria">@ayquealegria</a>
+                        </div>
+
+                        <div className='w-1/5'>
+                            <img src="/imgAboutus/roca.png" alt="La Puerta" />
+                            <h3 className='font-bold mb-3 mt-3'>Ulises Ramos</h3>
+                            <p className='mb-3'>Técnico de estudio, productor y mánager.</p>
+                            <a className='text-zinc-500	' href="@ayquealegria">@ayquealegria</a>
+                        </div>
+
+                        <div className='w-1/5'>
+                            <img src="/imgAboutus/roca.png" alt="La Puerta" />
+                            <h3 className='font-bold mb-3 mt-3'>Carlos Roca</h3>
+                            <p className='mb-3'>Técnico de estudio, productor y mánager.</p>
+                            <a className='text-zinc-500	' href="@ayquealegria">@ayquealegria</a>
+                        </div>
+
+                        <div className='w-1/5'>
+                            <img src="/imgAboutus/roca.png" alt="La Puerta" />
+                            <h3 className='font-bold mb-3 mt-3'>Carlos Roca</h3>
+                            <p className='mb-3'>Técnico de estudio, productor y mánager.</p>
+                            <a className='text-zinc-500	' href="@ayquealegria">@ayquealegria</a>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+
 
             {/* POEMA */}
 

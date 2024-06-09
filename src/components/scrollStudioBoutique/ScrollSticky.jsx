@@ -6,7 +6,7 @@ function App() {
 
   const { scrollYProgress } = useScroll();
 
-  const scale = useTransform(scrollYProgress, [0, 1], [1, 1.02]);
+  const scale = useTransform(scrollYProgress, [0, 1], [1, 1]);
   const opacity = inView(scrollYProgress, [0, 1], [0, 1]);
 
 
@@ -38,7 +38,7 @@ function App() {
             </div>
           </div>
         </motion.div>
-        <motion.div whileInView={{ opacity: 1 }} initial={{ opacity: 0 }} transition={{ duration: 0.5 }} viewport={{ amount: "all" }} className="cardStudio cardStudio2">
+        <motion.div whileInView={{ opacity: 1 }} initial={{ opacity: 1 }} viewport={{ amount: "all" }} className="cardStudio cardStudio2">
           <div className='container-fluid '>
             <div className='row plantilla'>
 
@@ -62,7 +62,7 @@ function App() {
             </div>
           </div>
         </motion.div>
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.5 }} viewport={{ amount: "all" }} className="cardStudio cardStudio3">
+        <motion.div initial={{ opacity: 1 }} whileInView={{ opacity: 1 }} viewport={{ amount: "all" }} className="cardStudio cardStudio3">
           <div className='container-fluid '>
             <div className='row plantilla'>
 
