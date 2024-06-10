@@ -109,13 +109,13 @@ const cards = [
     id: 2,
   },
   {
-    url: "/imgEstudio/mesa.png",
+    url: "/imgEstudio/control.jpeg",
     title: "Control",
     description:"El corazón del estudio, interconectado por distintos protocolos con las demás salas.",
     id: 3,
   },
   {
-    url: "/LaPuertaHome.png",
+    url: "/LaPuertaHome.jpg",
     title: "Cocina",
     description:"Totalmente equipada y a tu disposición. ",
     id: 4,

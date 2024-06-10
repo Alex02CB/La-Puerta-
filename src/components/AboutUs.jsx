@@ -4,6 +4,20 @@ import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import ReadMoreComponent from './leermas/ReadMoreComponent'
 
+const imgAboutus = {
+
+    img1: {
+        backgroundImage: 'url(/imgAboutus/localizacionMobile.webp)',
+    },
+    img2: {
+        backgroundImage: 'url(/lapuertaboutiqueHome.jpeg)',
+    },
+    img3: {
+        backgroundImage: 'url(/Formaciones.png)',
+    },
+
+};
+
 function AboutUs() {
 
     return (
@@ -51,40 +65,91 @@ function AboutUs() {
 
                     <div className='d-flex justify-content-between mb-5  col-lg-12 col-md-12 col-12'>
                         <h2>Familia LA PUERTA</h2>
+                        <img className=' w-2 lg:w-5 ' src="/imgEstudio/nota3.svg" alt="La Puerta Estudios" />
+                    </div>
+
+                    <div className='flex flex-wrap gap-24 familia'>
+
+                        <div className='w-1/5'>
+                            <img src="/imgAboutus/roca.png" alt="La Puerta" />
+                            <h3 className='font-bold mb-3 mt-3'>Carlos Roca</h3>
+                            <p className='mb-3'>Técnico de estudio, productor y mánager.</p>
+                            <a className='text-zinc-500	' href="@ayquealegria">@ayquealegria</a>
+                        </div>
+
+                        <div className='w-1/5'>
+                            <img src="/imgAboutus/ulises.png" alt="La Puerta" />
+                            <h3 className='font-bold mb-3 mt-3'>Ulises Ramos</h3>
+                            <p className='mb-3'>Músico arreglista, compositor y productor musical.</p>
+                            <a className='text-zinc-500	' href="@ayquealegria">@ulises_r_m</a>
+                        </div>
+
+                        <div className='w-1/5'>
+                            <img src="/imgAboutus/roca.png" alt="La Puerta" />
+                            <h3 className='font-bold mb-3 mt-3'>Jose Manuel Pelaez</h3>
+                            <p className='mb-3'>Técnico de directo, de estudio y productor técnico.</p>
+                            <a className='text-zinc-500	' href="@ayquealegria">@josepelaez97</a>
+                        </div>
+
+                        <div className='w-1/5'>
+                            <img src="/imgAboutus/marcos.png" alt="La Puerta" />
+                            <h3 className='font-bold mb-3 mt-3'>Marcos Muñiz</h3>
+                            <p className='mb-3'>Técnico de mezcla y profesor.</p>
+                            <a className='text-zinc-500	' href="@ayquealegria">@mrcsmnz</a>
+                        </div>
+
+                    </div>
+
+                    <div className='familiaMobile'>
+                        <div className='flex justify-between pb-1 mb-2 border-2 border-b-black border-t-white border-r-white border-l-white'>
+                            <p className='font-extrabold'>Carlos Roca</p>
+                            <p>Manager y productor.</p>
+                        </div>
+                        <div className='flex justify-between pb-1 mb-2 border-2 border-b-black border-t-white border-r-white border-l-white'>
+                            <p className='font-extrabold'>Ulises Ramos</p>
+                            <p>Músico arreglista y productor musical.</p>
+                        </div>
+                        <div className='flex justify-between pb-1 mb-2 border-2 border-b-black border-t-white border-r-white border-l-white'>
+                            <p className='font-extrabold'>Jose Manuel Pelaez</p>
+                            <p>Jefe técnico.</p>
+                        </div>
+                        <div className='flex justify-between pb-1 mb-2 border-2 border-b-black border-t-white border-r-white border-l-white'>
+                            <p className='font-extrabold'>Marcos Muñiz</p>
+                            <p>Técnico de mezcla y profesor.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div className='container-fluid'>
+                <div className='row sectionOne'>
+
+                    <div className='d-flex justify-content-between mb-5  col-lg-12 col-md-12 col-12 '>
+                        <h2>Localización</h2>
                         <img className=' w-2 lg:w-5 ' src="/imgEstudio/nota.svg" alt="La Puerta Estudios" />
                     </div>
 
-                    <div className='flex flex-wrap gap-24'>
-
-                        <div className='w-1/5'>
-                            <img src="/imgAboutus/roca.png" alt="La Puerta" />
-                            <h3 className='font-bold mb-3 mt-3'>Carlos Roca</h3>
-                            <p className='mb-3'>Técnico de estudio, productor y mánager.</p>
-                            <a className='text-zinc-500	' href="@ayquealegria">@ayquealegria</a>
-                        </div>
-
-                        <div className='w-1/5'>
-                            <img src="/imgAboutus/roca.png" alt="La Puerta" />
-                            <h3 className='font-bold mb-3 mt-3'>Ulises Ramos</h3>
-                            <p className='mb-3'>Técnico de estudio, productor y mánager.</p>
-                            <a className='text-zinc-500	' href="@ayquealegria">@ayquealegria</a>
-                        </div>
-
-                        <div className='w-1/5'>
-                            <img src="/imgAboutus/roca.png" alt="La Puerta" />
-                            <h3 className='font-bold mb-3 mt-3'>Carlos Roca</h3>
-                            <p className='mb-3'>Técnico de estudio, productor y mánager.</p>
-                            <a className='text-zinc-500	' href="@ayquealegria">@ayquealegria</a>
-                        </div>
-
-                        <div className='w-1/5'>
-                            <img src="/imgAboutus/roca.png" alt="La Puerta" />
-                            <h3 className='font-bold mb-3 mt-3'>Carlos Roca</h3>
-                            <p className='mb-3'>Técnico de estudio, productor y mánager.</p>
-                            <a className='text-zinc-500	' href="@ayquealegria">@ayquealegria</a>
-                        </div>
-                        
+                    <div className='col-lg-12 plantillaImg lg:block hidden'>
+                        <img src="/imgAboutus/localizacion.png" alt="La Puerta Estudios" />
                     </div>
+
+                    <div className='flex justify-between lg:mt-14 '>
+                        <p className=' lg:w-1/2 mb-4 font-normal'>El estudio se encuentra en la Cuesta Alhacaba 11, en la parte baja del Albayzín, más cercana al centro de la ciudad y de fácil acceso.</p>
+                        <img className='w-4 hidden lg:block' src="point.svg" alt="LaPUERTA" />
+                    </div>
+
+                    {/* Mobile */}
+                    <div className='plantillaMobileIMGboton' style={imgAboutus.img1}>
+                        <a  className='plantillaMobileIMGenlace' target="_blank" href='https://www.google.com/maps/dir//Cta.+de+Alhacaba,+11,+Albaic%C3%ADn,+18010+Granada/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0xd71fcc16cbc1737:0x2b0e9f3e2e7111c8?sa=X&ved=1t:707&ictx=111'>Google Maps</a>
+                    </div>
+
+
+                    <div className='buttonMaps w-1/6 border-2 border-b-black border-t-white border-r-white border-l-white p-0  mt-5  d-flex  justify-content-between'>
+                        <a target="_blank" href='https://www.google.com/maps/dir//Cta.+de+Alhacaba,+11,+Albaic%C3%ADn,+18010+Granada/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0xd71fcc16cbc1737:0x2b0e9f3e2e7111c8?sa=X&ved=1t:707&ictx=111'>Google Maps</a>
+                        <i className="bi bi-arrow-right"></i>
+                    </div>
+
 
                 </div>
             </div>

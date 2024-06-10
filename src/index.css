@@ -64,7 +64,7 @@ body{
 .bannerHome{
   width: 100vw;
   height: 100vh;
-  background-image: url('/LaPuertaHome.png');
+  background-image: url('/LaPuertaHome.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -156,8 +156,8 @@ body{
 
 .poemamobile{
   background-color: #FBFBFB;
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin-top: 80px;
+  margin-bottom: 80px;
   margin-left: 20px;
   margin-right: 20px;
   padding: 13%;

@@ -84,25 +84,25 @@ export default SmoothScroll2;
 
 const cards = [
   {
-    url: "/imgEstudio/salaElvira.jpg",
+    url: "/imgEstudio/piano.jpeg",
     title: "Composición y producción",
     description:"Cuenta con profesionales para asesorarte en tus proyectos. Utiliza nuestras instalaciones y material en el proceso.",
     id: 1,
   },
   {
-    url: "/imgEstudio/salaMonaita.jpg",
+    url: "/imgEstudio/microfono.jpeg",
     title: "Grabación",
     description:"Un ambiente cómodo y luminoso con una acústica increíble y un equipo de alta calidad.",
     id: 2,
   },
   {
-    url: "/imgEstudio/mesa.png",
+    url: "/imgEstudio/mezcla.jpeg",
     title: "Mezcla & Mix",
     description:"Obtén el sonido que quieres mezclando lo mejor de lo analógico y lo digital.",
     id: 3,
   },
   {
-    url: "/LaPuertaHome.png",
+    url: "/LaPuertaHome.jpg",
     title: "Post-Producción",
     description:"Un sonido innovador para tus producciones audiovisuales. ",
     id: 4,

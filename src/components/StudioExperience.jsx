@@ -81,7 +81,7 @@ function StudioExperience() {
                     </div>
 
                     <div className='col-lg-12 sectionOneImg'>
-                        <img src="imgEstudio/albacin.jpeg" alt="La Puerta Estudios" />
+                        <img src="imgEstudio/estudio.jpeg" alt="La Puerta Estudios" />
                     </div>
                 </div>
             </div>
@@ -107,7 +107,7 @@ function StudioExperience() {
 
 
                         <div className='col-lg-12'>
-                            <img src="imgEstudio/BannerEstudio.png" alt="La Puerta Estudios" />
+                            <img src="imgEstudio/pedales.jpg" alt="La Puerta Estudios" />
                         </div>
 
                         <div className='imageStudioExperience col-lg-6  col-md-6 col-6' style={imgStudioExperience.img2}>
