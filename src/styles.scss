@@ -207,7 +207,9 @@ nav {
 /* FOOTER */
 
 footer {
-  margin-top: 8vh;
+  border-top: 1px solid #D7D7D7;
+  padding-top: 10vh;
+  margin-top: 18vh;
   margin-bottom: 2vh;
   margin-left: 80px;
   margin-right: 80px;
@@ -738,7 +740,7 @@ div {
 
 // ABOUT US
 
-.plantillaMobileIMGboton{
+.plantillaMobileIMGboton {
   display: none;
 }
 
@@ -757,26 +759,28 @@ div {
   .familiaMobile {
     display: block;
   }
+
   .plantillaMobileIMGboton {
     width: 100%;
     height: 20vh;
     object-fit: contain;
-    display: flex ;
+    display: flex;
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-  
+
     .plantillaMobileIMGenlace {
       background-color: #222222B2;
       color: white;
       padding: 10px 20px 10px 20px;
     }
   }
-  .sectionOne{
 
-    .buttonMaps{
+  .sectionOne {
+
+    .buttonMaps {
       display: none !important;
     }
   }
@@ -784,3 +788,177 @@ div {
 }
 
 // FIN ABOUT US
+
+
+// CONTACTUS
+
+.ContactUS {
+  height: 50vh;
+  .linksContactUSmobile {
+    display: none;
+  }
+
+  .linksContactUS {
+    display: block;
+  }
+}
+
+@media only screen and (max-width:1024px) {
+  .ContactUS {
+    .linksContactUSmobile {
+      margin-top: 5vh;
+      display: block;
+    }
+
+    .linksContactUS {
+      display: none !important;
+    }
+  }
+}
+
+// FIN CONTACTUS
+
+
+// BOOK
+
+input {
+  background: white;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  border-radius: 0px;
+}
+
+input:focus {
+  outline: none;
+  border-color: rgb(107, 107, 107) !important;
+  box-shadow: none !important;
+}
+
+input:hover {
+  border-bottom: 2px solid rgb(107, 107, 107);
+}
+
+
+.botonForm {
+  background: rgb(0, 0, 0);
+  border: 2px solid black;
+  color: white;
+  padding: 10px;
+}
+
+select {
+  background: white;
+  border-bottom: 2px solid black;
+  border-radius: 0px;
+}
+
+.check {
+  border-bottom: 2px solid black;
+  border-radius: 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+textarea {
+  background: rgba(255, 255, 255, 0);
+  border-bottom: 2px solid black;
+  border-radius: 0px;
+}
+
+.custom-checkbox {
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+}
+
+.custom-checkbox:checked {
+  background: black;
+}
+
+.divNombreEmail {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width:1024px) {
+  .divNombreEmail {
+    display: block;
+
+    div:nth-child(2) {
+      margin-top: 48px;
+    }
+  }
+
+  label {
+    font-size: 16px !important;
+  }
+
+  input {
+    font-size: 13px;
+  }
+
+  h4 {
+    font-size: 16px !important;
+  }
+
+}
+
+
+// FIN BOOK
+
+
+// EMAIL
+
+.email {
+  height: 50vh;
+  .mailto {
+    border-bottom: 1px solid black;
+    padding-left: 0px;
+    margin-left: 12px;
+  }
+
+}
+
+
+// FIN EMAIL
+
+
+// CALL
+
+.call{
+  height: 50vh;
+  .tel {
+    border-bottom: 1px solid black;
+  }
+}
+
+
+@media only screen and (max-width:1024px) {
+  .call{
+    div:nth-child(2){
+      margin-top: 10px;
+    }
+    .tel{
+      margin-top: 15px !important;
+    }
+  }
+}
+
+// FIN CALL
+
+
+// ENCUENTRANOS
+
+.buttonMapsEncuentranos{
+  border-bottom: 1px solid black ;
+  margin-left: 12px;
+  padding: 0px !important;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px !important;
+}
+
+// FIN ENCUENTRANOS 

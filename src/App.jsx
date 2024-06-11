@@ -7,6 +7,11 @@ import AboutUs from '/src/components/AboutUs.jsx';
 import Contact from '/src/components/ContactUs.jsx';
 import Footer from './components/Footer';
 import Nav from './components/Nav';
+import Book from './components/Book';
+import Email from './components/Email';
+import Call from './components/Call';
+import OpeningHours from './components/OpeningHours';
+import Encuentranos from './components/Encuentranos';
 import "./styles.scss";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
@@ -27,6 +32,11 @@ function App() {
         <Route path='/masterclass' element={<MasterClass/>}/>
         <Route path='/aboutus' element={<AboutUs/>}/>
         <Route path='/contactus' element={<Contact/>}/>
+        <Route path='/book' element={<Book/>}/>
+        <Route path='/email' element={<Email/>}/>
+        <Route path='/call' element={<Call/>}/>
+        <Route path='/openinghours' element={<OpeningHours/>}/>
+        <Route path='/encuentranos' element={<Encuentranos/>}/>
         </Routes>
       </div>
       
