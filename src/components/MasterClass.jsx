@@ -1,15 +1,20 @@
 import Nav2 from './Nav2';
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
 function MasterClass() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <>
             <Nav2 />
             <div className='continer-fluid'>
                 <div className='row sectionOne '>
-                    <div className=' mt-52 d-flex justify-content-between mb-xl-5 mb-xs-0  col-lg-12 col-md-12 col-12'>
+                    <div className='mt-10 lg:mt-52 d-flex justify-content-between mb-xl-5 mb-xs-0  col-lg-12 col-md-12 col-12'>
                         <h2>No disponible actualmente</h2>
                         <img className='waverSer w-1 lg:w-10' src="/wavesSer.svg" alt="La Puerta Estudios" />
                     </div>
@@ -22,7 +27,7 @@ function MasterClass() {
                         </div>
 
                         <div className='mt-5 col-lg-3 col-md-6 col-12 '>
-                            <Link to="/">
+                            <Link to="/email">
                                 <div className='buttonSerHome d-flex  justify-content-between'>
                                     <p>Email</p>
                                     <i className="bi bi-arrow-right"></i>

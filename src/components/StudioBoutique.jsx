@@ -1,10 +1,15 @@
 import Nav from './Nav'
+import { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
 import ScrollSticky from './scrollStudioBoutique/ScrollSticky.jsx'
 
 function StudioBoutique() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <>
@@ -46,7 +51,7 @@ function StudioBoutique() {
                         </div>
 
                         <div className='contactanosEstudio col-lg-3 col-md-6 col-12 '>
-                            <Link to="/">
+                            <Link to="/contactus">
                                 <div className='buttonSerHome d-flex  justify-content-between'>
                                     <p>Contáctanos</p>
                                     <i className="bi bi-arrow-right"></i>
@@ -56,7 +61,7 @@ function StudioBoutique() {
 
                         {/* Boton movil */}
                         <div className='divbotonContactanos'>
-                            <Link to="" className='boton'>Contáctanos</Link>
+                            <Link to="/contactus" className='boton'>Contáctanos</Link>
                         </div>
 
                     </div>
@@ -74,7 +79,7 @@ function StudioBoutique() {
                                 <p className='col-lg-8 textoHomeContact'><span>Haz tu reserva</span><br /></p>
                             </div>
                             <div className='mt-5 col-lg-3 col-sm-4 col-12 '>
-                                <Link>
+                                <Link to='/book'>
                                     <div className='buttonSerHome d-flex  justify-content-between'>
                                         <p>Reserva</p>
                                         <i className="bi bi-arrow-right"></i>
@@ -91,7 +96,7 @@ function StudioBoutique() {
                     <div className="row d-flex justify-content-center">
                         <h2 className='mb-4'>Reserva tu experiencia LA PUERTA Boutique</h2>
                         <p className='textoHomeContact'><span>Haz tu reserva</span><br /></p>
-                        <Link to="" className='boton'>Contáctanos</Link>
+                        <Link to="/contactus" className='boton'>Contáctanos</Link>
                     </div>
                 </div>
             </div>

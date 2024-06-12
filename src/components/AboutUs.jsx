@@ -3,6 +3,7 @@ import Footer from './Footer'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import ReadMoreComponent from './leermas/ReadMoreComponent'
+import { useEffect } from 'react'
 
 const imgAboutus = {
 
@@ -19,6 +20,10 @@ const imgAboutus = {
 };
 
 function AboutUs() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <>
@@ -166,7 +171,7 @@ function AboutUs() {
                                 <p className='col-lg-8 textoHomeContact'><span>La Puerta Entorná </span><br /> Joaquín López</p>
                             </div>
                             <div className='mt-5 col-lg-3 col-sm-4 col-12 '>
-                                <Link>
+                                <Link to='/contactus'>
                                     <div className='buttonSerHome d-flex  justify-content-between'>
                                         <p>Reserva</p>
                                         <i className="bi bi-arrow-right"></i>
@@ -183,7 +188,7 @@ function AboutUs() {
                     <div className="row d-flex justify-content-center">
                         <h2 className='mb-4'>“Deja la puerta entorná por si alguna vez te diera la tentación de entrar”</h2>
                         <p className='textoHomeContact'><span>La Puerta Entorná </span><br /> Joaquín López</p>
-                        <Link to="" className='boton'>Contáctanos</Link>
+                        <Link to="/contactus" className='boton'>Contáctanos</Link>
                     </div>
                 </div>
             </div>

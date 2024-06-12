@@ -12,7 +12,7 @@ const SmoothScroll2 = () => {
 
       {/* SEGUNDA PARTE */}
       
-      <div className="container-fluid ">
+      <div className="container-fluid ocultarScroll">
         <div className="row containerNuestroEspacio">
           <div className='d-flex justify-content-between mb-xl-5 mb-xs-0  col-lg-12 col-md-12 col-12'>
             <h2>Servicios</h2>
@@ -32,10 +32,10 @@ const HorizontalScrollCarousel = () => {
     target: targetRef,
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ["1%", "-40%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["1%", "-20%"]);
 
   return (
-    <section ref={targetRef} className="relative h-[300vh]">
+    <section ref={targetRef} className="relative h-[300vh] ocultarScroll">
       <div className="sticky top-0 flex h-screen items-center overflow-hidden">
         <motion.div style={{ x }} className="flex gap-4">
           {cards.map((card) => {

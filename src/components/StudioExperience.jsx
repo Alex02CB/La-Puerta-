@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { useEffect } from 'react'
 import Nav from './Nav'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
@@ -19,11 +20,17 @@ const imgStudioExperience = {
     img3: {
         backgroundImage: 'url(/Formaciones.png)',
     },
+    img4: {
+        backgroundImage: 'url(/imgEstudio/pedales.jpg)'
+    }
 
 };
 
 function StudioExperience() {
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <>
@@ -66,18 +73,17 @@ function StudioExperience() {
                         </div>
 
                         <div className='contactanosEstudio col-lg-3 col-md-6 col-12 '>
-                            <Link to="/">
+                            <Link to="/contactus">
                                 <div className='buttonSerHome d-flex  justify-content-between'>
                                     <p>Contáctanos</p>
                                     <i className="bi bi-arrow-right"></i>
                                 </div>
                             </Link>
                         </div>
-                        {/* Boton movil */}
+                        {/* Boton movil 1 */}
                         <div className='divbotonContactanos'>
-                            <Link to="" className='boton'>Contáctanos</Link>
+                            <Link to="/contactus" className='boton'>Contáctanos</Link>
                         </div>
-
                     </div>
 
                     <div className='col-lg-12 sectionOneImg'>
@@ -110,7 +116,7 @@ function StudioExperience() {
                             <img src="imgEstudio/pedales.jpg" alt="La Puerta Estudios" />
                         </div>
 
-                        <div className='imageStudioExperience col-lg-6  col-md-6 col-6' style={imgStudioExperience.img2}>
+                        <div className='imageStudioExperience col-lg-6  col-md-6 col-6' style={imgStudioExperience.img4}>
                             <a href="" className='botonSaberMas2'><DownloadEstudioPDF /></a>
                         </div>
 

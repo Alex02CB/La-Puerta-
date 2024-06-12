@@ -1,7 +1,12 @@
 import Nav2 from './Nav2'
 import Footer from './Footer'
+import { useEffect } from 'react'
 
 function Call() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <>

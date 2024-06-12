@@ -1,8 +1,13 @@
 import Nav2 from './Nav2'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
+import { useEffect } from 'react';
 
 function ContactUs() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <>

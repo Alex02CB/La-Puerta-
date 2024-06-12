@@ -18,41 +18,53 @@
 }
 
 
-body{
+body {
   font-family: "Avenir", sans-serif;
-  ul{
+
+  ul {
     list-style: none;
     padding: 0;
     margin: 0;
   }
-  a{
+
+  a {
     color: black;
     text-decoration: none;
   }
+
   a:hover {
     color: rgb(60, 60, 60);
   }
-  img{
+
+  img {
     width: 100%;
   }
-  h1{
+
+  h1 {
     font-size: 24px;
     font-weight: 900;
   }
-  p{
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
     font-size: 20px;
   }
 
   max-width: 100%;
 
-  @media (max-width:1024px){
-    a{
+  @media (max-width:1024px) {
+    a {
       font-size: 13px;
     }
-    h2{
+
+    h2 {
       font-size: 16px;
     }
-    h1{
+
+    h1 {
       font-size: 16px;
     }
   }
@@ -61,7 +73,24 @@ body{
 
 /* HOME */
 
-.bannerHome{
+.servicio {
+  height: 40vh;
+}
+
+.ServicioEscritorio {
+  display: block;
+}
+
+.MobileServicio {
+  display: none;
+}
+
+.servicio div:nth-child(1) {
+  background-position: center;
+  background-size: cover;
+}
+
+.bannerHome {
   width: 100vw;
   height: 100vh;
   background-image: url('/LaPuertaHome.jpg');
@@ -70,74 +99,54 @@ body{
   background-position: center;
 }
 
-.imageSer{
+.imageSer {
   background-repeat: no-repeat;
   background-size: 100%;
   object-fit: contain;
 }
 
 
-.buttonSerHome{
+.buttonSerHome {
   margin-bottom: 20px;
   border-bottom: 1px solid black;
 }
 
-.waverSer{
+.waverSer {
   width: 40px;
 }
 
-.boxSerText{
-  padding-left: 40px;
-}
 
-.boxSerText h1{
-  margin-bottom: 30px;
-}
-.boxSerText p{
-  font-size: 20px;
-}
-
-.linkEstudio{
-  margin-top: 100px;
-}
-
-.ser{
-  margin-top: 100px;
-  margin-left: 80px;
-  margin-right: 80px;
-}
-.ser1{
-  margin-top: 100px;
-  height: 50vh;
-}
-.buttonSerHome{
+.buttonSerHome {
   font-size: 24px;
   font-weight: 900;
 }
-.buttonSerHome p{
+
+.buttonSerHome p {
   font-size: 24px;
 }
-.boxHomeContact{
+
+.boxHomeContact {
   margin-top: 180px;
   margin-bottom: 180px;
   margin-left: 80px;
   margin-right: 80px;
 }
-.boxHomeContact h2{
+
+.boxHomeContact h2 {
   font-size: 32px;
   font-weight: 400;
 }
 
-.textoHomeContact span{
+.textoHomeContact span {
   font-weight: 800;
   font-style: normal;
 }
 
-.textoHomeContact{
+.textoHomeContact {
   font-style: italic;
 }
 
-.backgroundPoema{
+.backgroundPoema {
   background-image: url('fondoPoemaHome.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -149,12 +158,13 @@ body{
   justify-content: start;
   align-items: center;
 }
-.contactDiv{
+
+.contactDiv {
 
   margin-left: 0px;
 }
 
-.poemamobile{
+.poemamobile {
   background-color: #FBFBFB;
   margin-top: 80px;
   margin-bottom: 80px;
@@ -164,7 +174,7 @@ body{
   text-align: center;
 }
 
-.boton{
+.boton {
   width: 120px;
   height: 30px;
   margin-top: 10px;
@@ -177,83 +187,61 @@ body{
   color: white;
 }
 
-.botonSaberMas{
+.botonSaberMas {
   display: none;
 }
 
-@media (min-width:1025px){
-  .poemamobile{
+@media (min-width:1024px) {
+  .poemamobile {
     display: none;
   }
 }
 
 
 /* TABLET Y MOBILE  HOME*/
-@media only screen and (max-width:991px){
+@media only screen and (max-width:1024px) {
+  .MobileServicio {
+    display: block !important;
+  }
 
-  .bannerHome{
+  .ServicioEscritorio {
+    display: none;
+  }
+
+  .bannerHome {
     background-position: 50% 50%;
   }
 
-  .imageSer{
+  .imageSer {
     object-fit: contain;
     display: flex;
     justify-content: center;
     align-items: center;
     background-size: cover;
     background-position: center;
-  }
-
-  .ser{
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
-  .ser1{
-    margin-top: 0px;
-  }
-
-.backgroundPoema{
-  display: none;
-}
-
-.textSer{
-  display: none;
-}
-
-.linkEstudio{
-  display: none;
-}
-
-
-  .bannerHome{
-    background-position: 50% 50%;
-  }
-
-  .ser1{
-    flex-direction: column-reverse;
-  }
-  .boxSerText{
-    padding-left: 0px;
-  }
-  .linkEstudio{
-    margin-top: 20px;
-  }
-  .waverSer{
-    width: 30px;
-  }
-  .imageSer{
     width: 100%;
     height: 30vh;
   }
-  .backgroundPoema{
+
+  .backgroundPoema {
+    display: none;
+  }
+
+  .bannerHome {
+    background-position: 50% 50%;
+  }
+
+  .waverSer {
+    width: 30px;
+  }
+
+  .backgroundPoema {
     display: none;
   }
 
   /* BOTON SABER MÁS */
 
-  .botonSaberMas{
+  .botonSaberMas {
     display: block;
     width: 120px;
     background-color: #22222280;
@@ -263,7 +251,7 @@ body{
     text-align: center;
   }
 
-  .botonSaberMas:hover{
+  .botonSaberMas:hover {
     color: white;
     background-color: #00000080;
   }

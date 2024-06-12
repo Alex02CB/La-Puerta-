@@ -1,8 +1,13 @@
 import Nav2 from './Nav2'
 import Footer from './Footer'
 import FormularioContacto from './formulario/FormularioContacto'
+import { useEffect } from 'react';
 
 function Book() {
+ 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <>
