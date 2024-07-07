@@ -20,7 +20,7 @@ function Email() {
                     <div className='mt-2.5'>
                         <p>Para cualquier consulta envíanos un correo electrónico.</p>
                     </div>
-                    <div className="mailto w-full lg:w-1/3 mt-5" >
+                    <div className="mailto w-5/6 lg:w-1/3 mt-5" >
                         <a className="font-bold" href="mailto:lapuertaestudios@grupoduende.com">lapuertaestudios@grupoduende.com</a>
                     </div>
                 </div>

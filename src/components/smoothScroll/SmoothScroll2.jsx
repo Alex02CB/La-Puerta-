@@ -32,10 +32,10 @@ const HorizontalScrollCarousel = () => {
     target: targetRef,
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ["1%", "-20%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["4%", "-34%"]);
 
   return (
-    <section ref={targetRef} className="relative h-[300vh] ocultarScroll">
+    <section ref={targetRef} className="relative h-[200vh] ocultarScroll">
       <div className="sticky top-0 flex h-screen items-center overflow-hidden">
         <motion.div style={{ x }} className="flex gap-4">
           {cards.map((card) => {
@@ -102,7 +102,7 @@ const cards = [
     id: 3,
   },
   {
-    url: "/LaPuertaHome.jpg",
+    url: "/imgEstudio/Postproduccion.jpg",
     title: "Post-Producción",
     description:"Un sonido innovador para tus producciones audiovisuales. ",
     id: 4,

@@ -14,7 +14,7 @@ const imgHome = {
         backgroundImage: 'url(/lapuertaboutiqueHome.jpeg)',
     },
     img3: {
-        backgroundImage: 'url(/Formaciones.png)',
+        backgroundImage: 'url(/FormacionesHome.jpeg)',
     },
 
 };
@@ -22,14 +22,13 @@ const imgHome = {
 
 function Home() {
 
-        useEffect(() => {
+    useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
 
     return (
         <>
-
-            <Nav></Nav>
+            <Nav />
 
             <motion.div
                 initial={{ opacity: 0, scale: 0.5 }}
@@ -39,6 +38,7 @@ function Home() {
                     delay: 0.5,
                     ease: [0, 0.71, 0.2, 1.01]
                 }}>
+
 
                 <div className='container-fluid'>
                     <div className='row'>
@@ -50,9 +50,9 @@ function Home() {
 
 
             {/* Servicio1 */}
-            <div className='container-fluid'>
-                <div className='row sectionOne ServicioEscritorio'>
-                    <div className='w-full d-flex servicio'>
+            <div className='container-fluid marginServicio ServicioEscritorio'>
+                <div className='row sectionOneHome'>
+                    <div className='w-full d-flex servicio '>
                         <div className='w-1/2' style={imgHome.img1}>
                         </div>
                         <div className='w-1/2 ml-7'>
@@ -83,10 +83,10 @@ function Home() {
                 </div>
             </div>
             {/* Servicio Mobile 1*/}
-            <div className='container-fluid'>
-                <div className="row sectionOne">
+            <div className='container-fluid MobileServicio'>
+                <div className="row sectionOneMobile">
 
-                    <div className='MobileServicio mt-5'>
+                    <div className=' mt-5'>
                         <div className='d-flex justify-content-between mb-3 '>
                             <h2 className='w-5/6'>Estudio</h2>
                             <div>
@@ -106,7 +106,7 @@ function Home() {
 
             {/* Servicio2 */}
             <div className='container-fluid'>
-                <div className='row sectionOne ServicioEscritorio'>
+                <div className='row sectionOneHome ServicioEscritorio'>
                     <div className='w-full d-flex servicio'>
                         <div className='w-1/2' style={imgHome.img2}>
                         </div>
@@ -137,10 +137,10 @@ function Home() {
                 </div>
             </div>
             {/* Servicio Mobile 2*/}
-            <div className='container-fluid'>
-                <div className="row sectionOne">
+            <div className='container-fluid MobileServicio'>
+                <div className="row sectionOneMobile">
 
-                    <div className='MobileServicio mt-5'>
+                    <div className='mt-5'>
                         <div className='d-flex justify-content-between mb-3 '>
                             <h2 className='w-5/6'>LA PUERTA Boutique</h2>
                             <div>
@@ -160,7 +160,7 @@ function Home() {
 
             {/* Servicio3 */}
             <div className='container-fluid'>
-                <div className='row sectionOne ServicioEscritorio'>
+                <div className='row sectionOneHome ServicioEscritorio'>
                     <div className='w-full d-flex servicio'>
                         <div className='w-1/2' style={imgHome.img3}>
                         </div>
@@ -191,10 +191,10 @@ function Home() {
                 </div>
             </div>
             {/* Servicio Mobile 3*/}
-            <div className='container-fluid'>
-                <div className="row sectionOne">
+            <div className='container-fluid MobileServicio'>
+                <div className="row sectionOneMobile">
 
-                    <div className='MobileServicio mt-5'>
+                    <div className='mt-5'>
                         <div className='d-flex justify-content-between mb-3 '>
                             <h2 className='w-5/6'>Formaciones</h2>
                             <div>

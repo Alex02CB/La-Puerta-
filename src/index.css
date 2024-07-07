@@ -74,7 +74,11 @@ body {
 /* HOME */
 
 .servicio {
-  height: 40vh;
+  height: 60vh;
+}
+
+.marginServicio{
+  margin-top: 20vh;
 }
 
 .ServicioEscritorio {
@@ -203,7 +207,9 @@ body {
   .MobileServicio {
     display: block !important;
   }
-
+  .sectionOneMobile{
+    margin-top: 0px;
+  }
   .ServicioEscritorio {
     display: none;
   }
