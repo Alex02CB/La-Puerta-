@@ -58,7 +58,7 @@ function Home() {
                         <div className='w-1/2 ml-7'>
                             <div className='d-flex justify-content-between mb-xl-5 mb-xs-0  col-lg-12 col-md-12 col-12'>
                                 <h2 className='w-5/6'>Estudio</h2>
-                                <img className='h-4 lg:h-10 w-1/6' src="/wavesSer.svg" alt="La Puerta Estudios" />
+                                <img className='h-4 lg:h-6 w-1/6' src="/wavesSer.svg" alt="La Puerta Estudios" />
                             </div>
                             <p className='w-3/5'>Un edificio del siglo XIX en el  emblemático barrio del Albayzín. Totalmente reformado mantieniendo la escencia de la
                                 arquitectura local.
@@ -113,7 +113,7 @@ function Home() {
                         <div className='w-1/2 ml-7'>
                             <div className='d-flex justify-content-between mb-xl-5 mb-xs-0  col-lg-12 col-md-12 col-12'>
                                 <h2 className='w-5/6'>LA PUERTA Boutique</h2>
-                                <img className='h-4 lg:h-10 w-1/6' src="/wavesSer.svg" alt="La Puerta Estudios" />
+                                <img className='h-4 lg:h-6 w-1/6' src="/wavesSer.svg" alt="La Puerta Estudios" />
                             </div>
                             <p className='w-3/5'>Sumérgete en la cultura y gastronomía andalusí. Desarrolla tus proyectos en un entorno histórico con un amplio abanico de ofertas culturales.
                             </p>
@@ -167,7 +167,7 @@ function Home() {
                         <div className='w-1/2 ml-7'>
                             <div className='d-flex justify-content-between mb-xl-5 mb-xs-0  col-lg-12 col-md-12 col-12'>
                                 <h2 className='w-5/6'>Formaciones</h2>
-                                <img className='h-4 lg:h-10 w-1/6' src="/wavesSer.svg" alt="La Puerta Estudios" />
+                                <img className='h-4 lg:h-6 w-1/6' src="/wavesSer.svg" alt="La Puerta Estudios" />
                             </div>
                             <p className='w-3/5'>Apostamos por una formación completa, concreta, actualizada y de calidad, tanto online como presencial, impartida por profesionales del sector que se enfrentan día a día con la materia y técnicas que imparten.
                             </p>

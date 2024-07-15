@@ -384,9 +384,20 @@ div {
 
 // SECCION SMOOTH
 
+@media only screen and (max-width:1024px){
+  .imgNota{
+    width: $SizeNotaMobile !important;
+  }
+}
+
+.imgNota{
+  width: $SizeNota;
+}
+
 .ocultarScroll{
   display: block;
 }
+
 
 .contactanosEstudioSmooth {
   display: block;
@@ -400,13 +411,13 @@ div {
   margin-right: $marginBody;
 
   .imgNota {
-    width: 20px;
+    width: $SizeNota;
   }
 }
 
 .blockText {
   h2 {
-    font-size: 32px;
+    font-size: 28px;
   }
 }
 
@@ -464,11 +475,11 @@ div {
   }
 
   .imgNota {
-    width: 20px;
+    width: $SizeNota;
   }
 
   .segundoh2 {
-    font-size: $font-h3;
+    font-size: $font-h2;
   }
 
   img:nth-child(1) {

@@ -17,7 +17,7 @@ function ContactUs() {
 
                     <div className='d-flex justify-content-between mb-xs-0 mb-xl-5 mt-10 lg:mt-52  col-lg-12 col-md-12 col-12'>
                         <h2>Contáctanos</h2>
-                        <img className='waverSer h-4 lg:h-10' src="/wavesSer.svg" alt="La Puerta Estudios" />
+                        <img className='waverSer h-4 lg:h-6' src="/wavesSer.svg" alt="La Puerta Estudios" />
                     </div>
 
                         <div className='point'>

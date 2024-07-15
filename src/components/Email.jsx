@@ -15,7 +15,7 @@ function Email() {
                 <div className='row sectionOne'>
                     <div className='mt-10 lg:mt-52 d-flex justify-content-between mb-xl-5 mb-xs-0  col-lg-12 col-md-12 col-12'>
                         <h2>Email</h2>
-                        <img className='waverSer h-4 lg:h-10' src="/wavesSer.svg" alt="La Puerta Estudios" />
+                        <img className='waverSer h-4 lg:h-6' src="/wavesSer.svg" alt="La Puerta Estudios" />
                     </div>
                     <div className='mt-2.5'>
                         <p>Para cualquier consulta envíanos un correo electrónico.</p>

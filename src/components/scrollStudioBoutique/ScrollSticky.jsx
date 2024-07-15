@@ -26,7 +26,7 @@ function App() {
 
                 <div className='d-flex justify-content-between mb-xl-5 mb-3  col-lg-12 col-md-12 col-12'>
                   <h2>Alojamiento</h2>
-                  <img className='w-2 lg:w-5' src="imgEstudio/nota3.svg" alt="La Puerta Estudios" />
+                  <img className='imgNota' src="imgEstudio/nota3.svg" alt="La Puerta Estudios" />
                 </div>
 
                 <div className='col-lg-6 col-md-11 col-12'>
@@ -50,7 +50,7 @@ function App() {
 
                 <div className='d-flex justify-content-between mb-xl-5 mb-3  col-lg-12 col-md-12 col-12'>
                   <h2>Gastronomía</h2>
-                  <img className='w-2 lg:w-5' src="imgEstudio/nota.svg" alt="La Puerta Estudios" />
+                  <img className='imgNota' src="imgEstudio/nota.svg" alt="La Puerta Estudios" />
                 </div>
 
                 <div className='col-lg-6 col-md-11 col-12'>
@@ -74,7 +74,7 @@ function App() {
 
                 <div className='d-flex justify-content-between mb-xl-5 mb-3  col-lg-12 col-md-12 col-12'>
                   <h2>Cultura</h2>
-                  <img className='w-2 lg:w-5' src="imgEstudio/nota2.svg" alt="La Puerta Estudios" />
+                  <img className='imgNota' src="imgEstudio/nota2.svg" alt="La Puerta Estudios" />
                 </div>
 
                 <div className='col-lg-6 col-md-11 col-12'>

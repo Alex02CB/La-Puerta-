@@ -58,7 +58,7 @@ function StudioExperience() {
 
                     <div className='d-flex justify-content-between mb-xl-5 mb-xs-0  col-lg-12 col-md-12 col-12'>
                         <h2>Estudio</h2>
-                        <img className='waverSer' src="/wavesSer.svg" alt="La Puerta Estudios" />
+                        <img className='h-4 lg:h-6 w-1/6' src="/wavesSer.svg" alt="La Puerta Estudios" />
                     </div>
 
                     <div className='point'>

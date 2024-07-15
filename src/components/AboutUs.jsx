@@ -1,4 +1,4 @@
-import Nav from './Nav'
+import Nav2 from './Nav2'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
@@ -27,7 +27,7 @@ function AboutUs() {
 
     return (
         <>
-            <Nav />
+            <Nav2 />
             <motion.div
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -70,7 +70,7 @@ function AboutUs() {
 
                     <div className='d-flex justify-content-between mb-5  col-lg-12 col-md-12 col-12'>
                         <h2>Familia LA PUERTA</h2>
-                        <img className=' w-2 lg:w-5 ' src="/imgEstudio/nota3.svg" alt="La Puerta Estudios" />
+                        <img className=' imgNota ' src="/imgEstudio/nota3.svg" alt="La Puerta Estudios" />
                     </div>
 
                     <div className='flex flex-wrap gap-24 familia'>
@@ -132,7 +132,7 @@ function AboutUs() {
 
                     <div className='d-flex justify-content-between mb-5  col-lg-12 col-md-12 col-12 '>
                         <h2>Localización</h2>
-                        <img className=' w-2 lg:w-5 ' src="/imgEstudio/nota.svg" alt="La Puerta Estudios" />
+                        <img className=' imgNota ' src="/imgEstudio/nota.svg" alt="La Puerta Estudios" />
                     </div>
 
                     <div className='col-lg-12 plantillaImg lg:block hidden'>

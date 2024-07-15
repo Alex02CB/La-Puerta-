@@ -46,11 +46,11 @@ body {
   }
 
   h2 {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   p {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   max-width: 100%;
@@ -121,12 +121,12 @@ body {
 
 
 .buttonSerHome {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 900;
 }
 
 .buttonSerHome p {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .boxHomeContact {
@@ -151,7 +151,7 @@ body {
 }
 
 .backgroundPoema {
-  background-image: url('fondoPoemaHome.png');
+  background-image: url('/fondoPoemaHome.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin-top: 120px;
