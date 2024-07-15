@@ -151,7 +151,7 @@ function AboutUs() {
 
 
                     <div className='buttonMaps w-1/6 border-2 border-b-black border-t-white border-r-white border-l-white p-0  mt-5  d-flex  justify-content-between'>
-                        <a target="_blank" href='https://www.google.com/maps/dir//Cta.+de+Alhacaba,+11,+Albaic%C3%ADn,+18010+Granada/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0xd71fcc16cbc1737:0x2b0e9f3e2e7111c8?sa=X&ved=1t:707&ictx=111'>Google Maps</a>
+                        <a className='textoGoogleMaps' target="_blank" href='https://www.google.com/maps/dir//Cta.+de+Alhacaba,+11,+Albaic%C3%ADn,+18010+Granada/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0xd71fcc16cbc1737:0x2b0e9f3e2e7111c8?sa=X&ved=1t:707&ictx=111'>Google Maps</a>
                         <i className="bi bi-arrow-right"></i>
                     </div>
 

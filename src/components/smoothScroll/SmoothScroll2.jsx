@@ -53,7 +53,7 @@ const Card = ({ card }) => {
     <div className="global">
         <div
         key={card.id}
-        className="group relative xl:h-[650px] xl:w-[650px] lg:h-[450px] lg:w-[450px] h-[500px] w-[300px] overflow-hidden bg-neutral-200"
+        className="group relative xl:h-[644px] xl:w-[575px] lg:h-[450px] lg:w-[450px] h-[500px] w-[300px] overflow-hidden bg-neutral-200"
         >
         <div
             style={{

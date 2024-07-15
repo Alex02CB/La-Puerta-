@@ -4,7 +4,7 @@
 // NAV 
 
 .container-nav {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
   height: 8vh;
   overflow-y: hidden;
   position: absolute;
@@ -390,8 +390,8 @@ div {
 
 .contactanosEstudioSmooth {
   display: block;
-  margin-top: 80px !important;
-  margin-bottom: 80px;
+  margin-top: 40px !important;
+  margin-bottom: 10px;
 }
 
 .containerNuestroEspacio {
@@ -833,7 +833,12 @@ div {
     .buttonMaps {
       display: none !important;
     }
+    .textoGoogleMaps{
+      font-weight: bold;
+    }
+
   }
+
 
 }
 
@@ -843,7 +848,7 @@ div {
 // CONTACTUS
 
 .ContactUS {
-  height: 50vh;
+  height: 100vh;
 
   .linksContactUSmobile {
     display: none;
@@ -981,7 +986,7 @@ textarea {
 // CALL
 
 .call {
-  height: 50vh;
+  height: 100vh;
 
   .tel {
     border-bottom: 1px solid black;

@@ -17,7 +17,7 @@ const SmoothScroll = () => {
     <div className="bg-white">
       <div className="container-fluid">
         <div className="row containerNuestroEspacio">
-          <div className='d-flex justify-content-between mb-xl-5 mb-xs-0  col-lg-12 col-md-12 col-12'>
+          <div className='d-flex justify-content-between mb-xl-2 mb-xs-0  col-lg-12 col-md-12 col-12'>
             <h2>Nuestro espacio</h2>
             <img className='imgNota' src="imgEstudio/nota3.svg" alt="La Puerta Estudios" />
           </div>
@@ -25,7 +25,7 @@ const SmoothScroll = () => {
           <div className='mt-3 col-lg-12 col-md-12 col-12'>
             <div className='d-flex'>
               <div className='col-lg-8 col-md-12 col-12'>
-                <p className=' col-lg-10 col-md-8 col-12'>Clica el botón de abajo para ver las especificaciones técnicas de las salas.</p>
+                <p className=' col-lg-6 col-md-8 col-6'>Clica el botón de abajo para ver las especificaciones técnicas de las salas.</p>
               </div>
             </div>
           </div>
@@ -105,7 +105,7 @@ const Card = ({ card }) => {
       <div className="global">
         <div
           key={card.id}
-          className="group relative xl:h-[650px] xl:w-[650px] lg:h-[450px] lg:w-[450px] h-[500px] w-[300px] overflow-hidden bg-neutral-200"
+          className="group relative xl:h-[644px] xl:w-[575px] lg:h-[450px] lg:w-[450px] h-[500px] w-[300px] overflow-hidden bg-neutral-200"
         >
           <div
             style={{
