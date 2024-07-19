@@ -90,8 +90,8 @@ function AboutUs() {
                         </div>
 
                         <div className='w-1/5'>
-                            <img src="/imgAboutus/roca.png" alt="La Puerta" />
-                            <h3 className='font-bold mb-3 mt-3'>Jose Manuel Pelaez</h3>
+                            <img src="/imgAboutus/jose.png" alt="La Puerta" />
+                            <h3 className='font-bold mb-3 mt-3'>Jose Manuel Peláez</h3>
                             <p className='mb-3'>Técnico de directo, de estudio y productor técnico.</p>
                             <a className='text-zinc-500	' href="@ayquealegria">@josepelaez97</a>
                         </div>
@@ -100,6 +100,13 @@ function AboutUs() {
                             <img src="/imgAboutus/marcos.png" alt="La Puerta" />
                             <h3 className='font-bold mb-3 mt-3'>Marcos Muñiz</h3>
                             <p className='mb-3'>Técnico de mezcla y profesor.</p>
+                            <a className='text-zinc-500	' href="@ayquealegria">@mrcsmnz</a>
+                        </div>
+
+                        <div className='w-1/5'>
+                            <img src="/imgAboutus/aroa.png" alt="La Puerta" />
+                            <h3 className='font-bold mb-3 mt-3'>Aroa</h3>
+                            <p className='mb-3'>Profesora de cante</p>
                             <a className='text-zinc-500	' href="@ayquealegria">@mrcsmnz</a>
                         </div>
 
